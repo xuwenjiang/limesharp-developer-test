@@ -12,7 +12,7 @@ Your solution:
 
 
 ### Task 2:
-Make this work (no vowels, lowercase except first letter):
+Make this work (no vowels, lowercase except the first letter):
 ```javascript
 reformat("liMeSHArp DeveLoper TEST") //Lmshrp dvlpr tst
 ```
