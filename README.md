@@ -4,7 +4,7 @@ Fork this repo, commit changes after each task and send us the link to your repo
 Languages accepted: js, php, python, ruby. 
 
 ### Task 1: 
-Make this work (duplicate 3 times the contents of an array):
+Make this work (repeat 3 times the contents of an array):
 ```javascript
 repeat([1,2,3]) //[1,2,3,1,2,3,1,2,3]
 ```
@@ -12,7 +12,7 @@ Your solution:
 
 
 ### Task 2:
-Make this work (no vowels, lowercase except first letter):
+Make this work (no vowels, lowercase except the first letter):
 ```javascript
 reformat("liMeSHArp DeveLoper TEST") //Lmshrp dvlpr tst
 ```
@@ -31,3 +31,5 @@ next_binary_number([1,0]) // [1,1]
 // .......
 // [1,0,0,0,0,0,0,0,0,1] => [1,0,0,0,0,0,0,0,1,0]
 ```
+Your solution:
+
