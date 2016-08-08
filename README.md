@@ -37,6 +37,6 @@ next_binary_number([1,0]) // [1,1]
 ```
 Your solution:
 
-###### if we type in our console your function and next_binary_number([1,0,0,0,0,0,0,0,0,1]) then the result should look like [1,0,0,0,0,0,0,0,1,0] (or as a string).
+###### if we type in our console your function and next_binary_number([1,0,0,0,0,0,0,0,0,1]) then the result should look like 1,0,0,0,0,0,0,0,1,0 (or as an array).
 
 ###### If you get invited to the first interview read the What to expect.md file.
