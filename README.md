@@ -12,7 +12,7 @@ repeat([1,2,3]) //[1,2,3,1,2,3,1,2,3]
 Your solution:
 
 ###### if we type in our console your function and repeat([1,2,3]) then the result should be [1,2,3,1,2,3,1,2,3] 
-
+```
 function repeat(Array $arrayToBeRepeated) {
     $repeatTimes = 3;
     echo "[";
@@ -26,6 +26,7 @@ function repeat(Array $arrayToBeRepeated) {
     }
     echo "]".PHP_EOL;
 }
+```
 
 ### Task 2:
 Make this work (no vowels, lowercase except the first letter):
@@ -35,7 +36,7 @@ reformat("liMeSHArp DeveLoper TEST") //Lmshrp dvlpr tst
 Your solution:
 
 ###### if we type in our console your function and reformat("liMeSHArp DeveLoper TEST") then the result should be Lmshrp dvlpr tst
-
+```
 function reformat($originString) {
     $vowels = ['a', 'e', 'i', 'o', 'u'];
     $resultString = $originString;
@@ -43,7 +44,7 @@ function reformat($originString) {
     $resultString = str_replace($vowels, '', $resultString);
     echo $resultString . PHP_EOL;
 }
-
+```
 
 ### Task 3 (optional, for bonus points):
 Make this work (without using any built in functions, only a `for` loop, return the next binary number in a string or as an array)
@@ -60,7 +61,7 @@ next_binary_number([1,0]) // [1,1]
 Your solution:
 
 ###### if we type in our console your function and next_binary_number([1,0,0,0,0,0,0,0,0,1]) then the result should look like 1,0,0,0,0,0,0,0,1,0 (or as an array).
-
+```
 function next_binary_number(Array $arrayAsBinary) {
     $length = count($arrayAsBinary);
     $carry = 1;
@@ -84,5 +85,5 @@ function next_binary_number(Array $arrayAsBinary) {
     $string = implode(",", $arrayAsBinary);
     echo $string . "]" .PHP_EOL;
 }
-
+```
 ###### If you get invited to the first interview read the What to expect.md file.
